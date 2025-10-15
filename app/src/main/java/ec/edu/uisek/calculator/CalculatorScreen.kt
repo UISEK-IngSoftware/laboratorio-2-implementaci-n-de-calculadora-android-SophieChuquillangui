@@ -54,6 +54,7 @@ fun CalculatorScreen(
             .padding(16.dp),
         verticalArrangement = Arrangement.Center
     ) {
+
         Text(
             text = state.display,
             modifier = Modifier
